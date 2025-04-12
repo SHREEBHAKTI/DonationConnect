@@ -1,0 +1,93 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f6fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Container for content */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Form fields */
+form input, form textarea, form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Submit button */
+button {
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #21867a;
+}
+
+/* Success or notification messages */
+.alert {
+    background-color: #dff0d8;
+    color: #3c763d;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-left: 6px solid #3c763d;
+    border-radius: 4px;
+}
+
+/* Navigation links */
+.navbar {
+    text-align: center;
+    background-color: #264653;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #e9ecef;
+    margin-top: 40px;
+    color: #555;
+    font-size: 14px;
+}

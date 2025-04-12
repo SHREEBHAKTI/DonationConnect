@@ -1,0 +1,16 @@
+<h2>Donors</h2>
+<ul>
+  {% for d in donors %}
+    <li>{{ d[1] }} - {{ d[4] }}</li>
+  {% endfor %}
+</ul>
+
+<h2>Recipients</h2>
+<ul>
+  {% for r in recipients %}
+    <li>{{ r[1] }} ({{ r[2] }}) needs: {{ r[3] }}</li>
+  {% endfor %}
+</ul>
+
+<p><b>Notification:</b> (Simulated) You can contact the recipient via provided info once a match is made.</p>
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
